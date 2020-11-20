@@ -1,0 +1,271 @@
+.programm {
+  background-image: url("../img/contrast.png");
+  background-repeat: no-repeat;
+  background-size: 1137px 634px;
+  background-position: center top 180px;
+}
+
+.program__title {
+  position: relative;
+  margin: 0;
+  color: #ff0000;
+  font-family: "Core Sans E";
+  font-size: 56px;
+  font-weight: 600;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.program__title::before {
+  content: "Программа";
+  position: absolute;
+  top: 50%;
+  left: 0%;
+  transform: translate(-50% -50%);
+  width: 100%;
+  text-transform: uppercase;
+  opacity: 0.1;
+  color: #32383f;
+  font-family: "Besom";
+  font-size: 180px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 20px;
+  text-align: center;
+}
+
+.programm__lists {
+  display: flex;
+  margin-top: 134px;
+  margin-bottom: 84px;
+  padding-left: 150px;
+  padding-right: 150px;
+}
+
+.programm__list {
+  margin-top: 100px;
+  padding: 0;
+  list-style-type: none;
+
+  &--left {
+    max-width: 455px;
+    margin-right: auto;
+  }
+
+  &--right {
+    max-width: 310px;
+    margin-left: auto;
+  }
+}
+
+.programm__item {
+  color: #4d4d4d;
+  font-family: "Core Sans E";
+  font-size: 16px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 24px;
+  text-align: left;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+
+  &--one::before {
+    content: "01";
+    width: 24px;
+    height: 20px;
+    color: #ff0000;
+    font-family: "Besom";
+    font-size: 30px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 16px;
+    margin-right: 22px;
+  }
+
+  &--one::before {
+    content: "01";
+    width: 24px;
+    height: 20px;
+    color: #ff0000;
+    font-family: "Besom";
+    font-size: 30px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 16px;
+    margin-right: 22px;
+  }
+
+  &--two::before {
+    content: "02";
+    width: 24px;
+    height: 20px;
+    color: #ff0000;
+    font-family: "Besom";
+    font-size: 30px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 16px;
+    margin-right: 22px;
+  }
+
+  &--three::before {
+    content: "03";
+    width: 24px;
+    height: 20px;
+    color: #ff0000;
+    font-family: "Besom";
+    font-size: 30px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 16px;
+    margin-right: 22px;
+  }
+
+  &--four::before {
+    content: "04";
+    width: 24px;
+    height: 20px;
+    color: #ff0000;
+    font-family: "Besom";
+    font-size: 30px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 16px;
+    margin-right: 22px;
+  }
+
+  &--five::before {
+    content: "05";
+    width: 24px;
+    height: 20px;
+    color: #ff0000;
+    font-family: "Besom";
+    font-size: 30px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 16px;
+    margin-right: 22px;
+  }
+
+  &--six::before {
+    content: "06";
+    width: 24px;
+    height: 20px;
+    color: #ff0000;
+    font-family: "Besom";
+    font-size: 30px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 16px;
+    margin-right: 22px;
+  }
+
+  &--seven::before {
+    content: "07";
+    width: 24px;
+    height: 20px;
+    color: #ff0000;
+    font-family: "Besom";
+    font-size: 30px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 16px;
+    margin-right: 22px;
+  }
+
+  &--eight::before {
+    content: "08";
+    width: 24px;
+    height: 20px;
+    color: #ff0000;
+    font-family: "Besom";
+    font-size: 30px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 16px;
+    margin-right: 22px;
+  }
+
+  &--nine::before {
+    content: "09";
+    width: 24px;
+    height: 20px;
+    color: #ff0000;
+    font-family: "Besom";
+    font-size: 30px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 16px;
+    margin-right: 22px;
+  }
+}
+
+.programm__inner {
+  display: flex;
+  align-items: center;
+  margin-bottom: 251px;
+  padding-left: 150px;
+  padding-right: 150px;
+}
+
+.programm__text {
+  margin: 0;
+  color: #ff0000;
+  font-family: "Besom";
+  font-size: 87px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 17.24px;
+  text-align: right;
+  text-transform: uppercase;
+}
+
+.programm__button {
+  min-width: 307px;
+  margin-left: auto;
+  background: transparent;
+  border: none;
+  color: #ffffff;
+  font-family: "Core Sans E";
+  font-size: 18px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+  text-align: center;
+  text-transform: uppercase;
+  font-style: normal;
+  letter-spacing: 0.9px;
+  line-height: normal;
+  background-image: url("../img/try-redbg.png");
+  background-repeat: no-repeat;
+  background-size: 307px 73px;
+  background-position: center center;
+  padding-top: 22px;
+  padding-bottom: 38px;
+}
+
+.programm__img {
+  display: block;
+  min-width: 1920px;
+  min-width: 574px;
+  margin-left: auto;
+  margin-right: auto;
+}

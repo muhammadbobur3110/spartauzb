@@ -1,0 +1,160 @@
+.instructor {
+  padding-top: 104px;
+  padding-bottom: 66px;
+}
+
+.instructor__title {
+  margin: 0;
+  margin-bottom: 100px;
+  color: #ff0000;
+  font-family: "Core Sans E";
+  font-size: 68px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+  text-align: center;
+  text-transform: uppercase
+}
+
+.instructor__inner {
+  display: flex;
+}
+
+.instructor__left {
+  margin-right: auto;
+}
+
+.instructor__img {
+  vertical-align: middle;
+  margin-right: 36px;
+}
+
+.instructor__right {
+  flex-grow: 1;
+}
+
+.instructor__name {
+  margin: 0;
+  margin-bottom: 42px;
+  color: #ff0000;
+  font-family: "Core Sans E";
+  font-size: 24px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 24px;
+  text-align: left;
+}
+
+.instructor__list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+}
+
+.instructor__item {
+
+  &--first {
+    max-width: 340px;
+    margin-right: auto;
+  }
+
+  &--second {
+    max-width: 240px;
+  }
+}
+
+.instructor__text {
+  margin: 0;
+  margin-bottom: 30px;
+  color: #4d4d4d;
+  font-family: "Core Sans E";
+  font-size: 16px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 24px;
+  text-align: left;
+}
+
+.instructor__number-list {
+  margin: 0;
+  margin-top: 86px;
+  padding: 0;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  list-style-type: none;
+  display: flex;
+}
+
+.intructor__number {
+  max-width: 195px;
+  display: flex;
+  flex-direction: column;
+
+  &--27::before {
+    content: "27";
+    margin-bottom: 41px;
+    color: #ff0000;
+    font-family: "Besom";
+    font-size: 120px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 17px;
+    text-align: center;
+  }
+
+  &--05::before {
+    content: "05";
+    margin-bottom: 41px;
+    color: #ff0000;
+    font-family: "Besom";
+    font-size: 120px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 17px;
+    text-align: center;
+  }
+
+  &--28::before {
+    content: "28";
+    margin-bottom: 41px;
+    color: #ff0000;
+    font-family: "Besom";
+    font-size: 120px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 17px;
+    text-align: center;
+  }
+
+  &--35::before {
+    content: "35";
+    margin-bottom: 41px;
+    color: #ff0000;
+    font-family: "Besom";
+    font-size: 120px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 17px;
+    text-align: center;
+  }
+}
+
+.instructor__numbers {
+  margin: 0;
+  color: #4d4d4d;
+  font-family: "Core Sans E";
+  font-size: 16px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 24px;
+  text-align: center;
+}

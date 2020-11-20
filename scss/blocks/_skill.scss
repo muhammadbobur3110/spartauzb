@@ -1,0 +1,285 @@
+.skill {
+  padding-top: 78px;
+  padding-bottom: 222px;
+  background-image: url("../img/13-layers.png");
+  background-repeat: no-repeat;
+  background-size: 1349px 873px;
+  background-position: calc(50% - 360px) 130px;
+}
+
+.skill__title {
+  position: relative;
+  margin: 0;
+  margin-bottom: 100px;
+  color: #ff0000;
+  font-family: "Core Sans E";
+  font-size: 56px;
+  font-weight: 600;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.skill__title::before {
+  content: "ты приобретёшь";
+  position: absolute;
+  top: 50%;
+  left: 0%;
+  transform: translate(-50% -50%);
+  width: 100%;
+  text-transform: uppercase;
+  opacity: 0.1;
+  color: #32383f;
+  font-family: "Besom";
+  font-size: 180px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 20px;
+  text-align: center;
+}
+
+.skill__list {
+  width: 40%;
+  margin-left: auto;
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+}
+
+.skill__item {
+  color: #4d4d4d;
+  font-family: "Core Sans E";
+  font-size: 16px;
+  font-weight: 500;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 24px;
+  text-align: left;
+
+  &--dozen {
+    max-width: 130px;
+    margin-left: 10px;
+    margin-bottom: 81px;
+  }
+
+  &--victim {
+    max-width: 210px;
+    margin-left: 100px;
+    margin-bottom: 80px;
+  }
+
+  &--partisan {
+    max-width: 200px;
+    margin-left: 155px;
+    margin-bottom: 110px;
+  }
+
+  &--survive {
+    min-width: 230px;
+    margin-left: 200px;
+    margin-bottom: 90px;
+  }
+
+  &--adrenaline {
+    min-width: 233px;
+    margin-left: 210px;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .skill__title {
+    font-size: 5vw;
+  }
+
+  .skill__title::before {
+    font-size: 10vw;
+  }
+}
+
+@media only screen and (max-width: 1075px) {
+  .skill {
+    background-image: url("../img/13-layers.png");
+    background-repeat: no-repeat;
+    background-size: 1349px 873px;
+    background-position: calc(50% - 500px) 120px;
+  }
+
+  .skill__list {
+    margin-right: 100px;
+  }
+}
+
+@media only screen and (max-width: 970px) {
+  .skill {
+    background-image: url("../img/skill-bg.png");
+    background-repeat: no-repeat;
+    background-size: 818px 782px;
+    background-position: calc(50% - 250px) 180px;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  .skill {
+    background-image: url("../img/skill-bg.png");
+    background-repeat: no-repeat;
+    background-size: 818px 782px;
+    background-position: calc(50% - 450px) 160px;
+  }
+  .skill__title::before {
+    font-size: 15vw;
+  }
+
+  .skill__list {
+    margin-right: 300px;
+  }
+
+  .skill__item {
+    color: #4d4d4d;
+    font-family: "Core Sans E";
+    font-size: 16px;
+    font-weight: 500;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 24px;
+    text-align: left;
+
+    &--dozen {
+      max-width: 130px;
+      margin-left: 10px;
+      margin-bottom: 81px;
+    }
+
+    &--victim {
+      min-width: 220px;
+      margin-left: 100px;
+      margin-bottom: 80px;
+    }
+
+    &--partisan {
+      min-width: 220px;
+      margin-left: 155px;
+      margin-bottom: 105px;
+    }
+
+    &--survive {
+      min-width: 230px;
+      margin-left: 200px;
+      margin-bottom: 85px;
+    }
+
+    &--adrenaline {
+      min-width: 233px;
+      margin-left: 210px;
+    }
+  }
+
+}
+
+@media only screen and (max-width:590px) {
+  .skill {
+    background-image: url("../img/14-layers.png");
+    background-repeat: no-repeat;
+    background-size: 329px 842px;
+    background-position: calc(50% - 290px) 100px;
+  }
+
+  .skill__list {
+    margin-left: 125px;
+  }
+
+  .skill__item {
+    color: #4d4d4d;
+
+    &--dozen {
+      max-width: 130px;
+      margin-left: 0px;
+      margin-bottom: 81px;
+    }
+
+    &--victim {
+      min-width: 220px;
+      margin-left: 20px;
+      margin-bottom: 80px;
+    }
+
+    &--partisan {
+      min-width: 220px;
+      margin-left: 25px;
+      margin-bottom: 105px;
+    }
+
+    &--survive {
+      min-width: 230px;
+      margin-left: 0;
+      margin-bottom: 85px;
+    }
+
+    &--adrenaline {
+      min-width: 233px;
+      margin-left: 0px;
+    }
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .skill {
+    background-image: url("../img/14-layers.png");
+    background-repeat: no-repeat;
+    background-size: 329px 842px;
+    background-position: left -200px top 100px;
+  }
+
+  .skill__list {
+    margin-left: 80px;
+  }
+}
+
+@media only screen and (max-width: 335px) {
+  .skill {
+    background-image: url("../img/14-layers.png");
+    background-repeat: no-repeat;
+    background-size: 329px 842px;
+    background-position: left -230px top 100px;
+  }
+
+  .skill__list {
+    margin-left: 80px;
+  }
+
+  .skill__item {
+    color: #4d4d4d;
+
+    &--dozen {
+      max-width: 130px;
+      margin-left: 0px;
+      margin-bottom: 81px;
+    }
+
+    &--victim {
+      min-width: 200px;
+      margin-left: 20px;
+      margin-bottom: 80px;
+    }
+
+    &--partisan {
+      min-width: 200px;
+      margin-left: 25px;
+      margin-bottom: 105px;
+    }
+
+    &--survive {
+      min-width: 210px;
+      margin-left: 0;
+      margin-bottom: 85px;
+    }
+
+    &--adrenaline {
+      min-width: 220px;
+      margin-right: auto;
+    }
+  }
+}
